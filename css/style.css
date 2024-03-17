@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto-Regular;
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../Roboto/Roboto-Regular.ttf);
+}
+.navbar{
+    width: 1400px;
+    height: 75px;
+    margin: 30px auto;
+    border-radius: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.navbar .row{
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .row .col{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .row .col p{
+    color: gray;
+}
+.navbar .row .col .item-menu{
+    display: flex;
+    height: 100%;
+    list-style-type: none;
+    justify-content: center;
+    gap: 15px;
+    align-items: center; 
+}
+.navbar .row .col .item-menu .item{
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.navbar .row .col .item-menu .item-hover-bg:hover{
+    background-color: rgba(128, 128, 128, 0.419);
+}
+.fa-discord, .fa-github{
+    font-size: 18px;
+}
+.navbar .row .col .item-menu .item .get-btn{
+    padding: 10px 17px;
+    border: 0.5px solid black;
+    border-radius: 8px;
+    color: black;
+    font-size: 12px;
+}
+.navbar .row .col .item-menu .item .down-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 17px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.navbar .row .col .item-menu li{
+    position: relative;
+}
+.navbar .row .col .item-menu li .item-menu-drop{
+    position: absolute;
+    width: 190px;
+    list-style-type: none;
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 10px;
+    top: 35px;
+    right: -35px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.fa-chevron-down{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.navbar .row .col .item-menu li:hover .item-menu-drop{
+    top: 100%;
+    right: -35px;
+    opacity: 1;
+    visibility: visible;
+}
+.navbar .row .col .item-menu li .item-menu-drop .item-drop{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px; 
+    padding: 15px ;
+    width: 100%;
+} 
+.navbar .row .col .item-menu li .item-menu-drop .item-drop:hover{
+    background-color: grey;
+}
