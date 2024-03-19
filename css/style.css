@@ -105,3 +105,297 @@
 .navbar .row .col .item-menu li .item-menu-drop .item-drop:hover{
     background-color: grey;
 }
+/* ====main===== */
+.container{
+    width: 1200px;
+    margin: 40px auto;
+}
+.container .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.container .row .col{
+    width: 525px;
+    height: 100vh;
+    border-radius: 10px;
+}
+.container .row .col h1{
+    margin-top: 200px;
+    font-size: 45px;
+}
+.container .row .col p{
+    margin: 30px 0;
+    font-size: 18px;
+}
+.container .row .col button{
+    padding: 13px 60px;
+    border-radius: 8px;
+    border: none;
+    /* background-color: transparent */
+}
+.container .row .col button a{
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.container .row .col button .get{
+    color: white;
+}
+.container .row .col button .read{
+    color: rgb(30,41,59);
+}
+.container .row .col .get-btn{
+    background-color: rgb(30,41,59);
+}
+.container .row .col .readmore-btn{
+    border: 0.3px solid rgb(30,41,59);
+    background-color: transparent;
+    color: rgb(30,41,59);
+}
+.container .row .col .p-2{
+    color: rgb(137,137,137);
+    font-size: 14px;
+}
+.container .row .col .p-2 a{
+    color: rgb(137,137,137);
+    
+}
+.container .row .col:nth-child(2){
+    background-image: url(../img/photo-1651558529203-970fcdcc397b.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container-1{
+    width: 1200px;
+    height: auto;
+    margin: 20px auto;
+}
+.container-1 .tittle{
+    width: 70%;
+    margin: auto;
+}
+.container-1 .tittle h4{
+    text-align: center;
+}
+.container-1 .tittle h1{
+    font-size: 45px;
+    text-align: center;
+    margin: 30px 0;
+}
+.container-1 .tittle p{
+    font-size: 20px;
+    color: rgb(137,137,137);
+    text-align: center;
+}
+.container-1 .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+.container-1 .row .col{
+    width: calc(1050px / 4);
+}
+.container-1 .row .col h1{
+    font-size: 50px;
+}
+.container-1 .row .col h3{
+    margin: 20px 0;
+}
+.container-1 .row .col p{
+    font-size: 15px;
+    color: rgb(137,137,137);
+}
+.container-2{
+    width: 1200px;
+    margin: 70px auto ;
+}
+.container-2 .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.container-2 .row .col{
+    width: calc(1150px / 2);
+    height: 120vh;
+}
+.container-2 .row .col h1{
+    font-size: 40px;
+    margin: 20px 0; 
+}
+.container-2 .row .col p{
+    margin: 20px 0;
+    font-size: 20px;
+    color: rgb(137,137,137);
+}
+.container-2 .row .col h2{
+    margin-top: 50px;
+}
+.container-2 .row .col a{
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: rgb(30,41,59);
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.container-2 .row .col:nth-child(2){
+    background-image: url(../img/content1.jpg);
+    border-radius: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container-3 {
+    width: 1200px;
+    margin: 50px auto;
+}
+.container-3 .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 100px 0;
+}
+.container-3 .tittle{
+    width: 70%;
+    margin: auto;
+
+}
+.container-3 .tittle h1{
+    font-size: 45px;
+    text-align: center;
+    margin: 30px 0;
+}
+.container-3 .tittle p{
+    font-size: 20px;
+    color: rgb(137,137,137);
+    text-align: center;
+}
+.container-3 .row .col{
+    width: 570px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.container-3 .row .col .col-img{
+    width: 470px;
+    height: 100%;
+    
+    /* background-image: url(../img/studio-5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.container-3 .row .col .col-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.container-3 .row .col .col-tittle h5{
+    margin-bottom: 40px;
+    color: rgb(150,169,179);
+}
+.container-3 .row .col .col-tittle p{
+    line-height: 180%;
+    margin-bottom: 30px;
+}
+.container-3 .row .col .col-tittle a{
+    text-decoration: none;
+    display: inline-block;
+    width: 40px ;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0;
+}
+.container-3 .row .col .col-tittle a i{
+    font-size: 20px;
+    color: black;
+}
+.container-3 .row .col .col-tittle a .fa-facebook{
+    color: rgb(48,102,255);
+}
+.container-3 .row .col .col-tittle a .fa-twitter{
+    color: rgb(89,198,248);
+}
+.container-3 .row .col .col-tittle a:hover{
+    background-color: rgba(0, 255, 255, 0.305);
+}
+.container-4 {
+    width: 1200px;
+    margin: auto;
+    margin-top: 300px;   
+    border-bottom: 0.1px solid black;
+}
+.container-4 .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.container-4 .row .col h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.container-4 .row .col a{
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    color: grey;
+    font-size: 17px;
+}
+.container-4 .row .col h2{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.container-4 .row .col form  input{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.container-4 .row .col form button{
+    height: 40px;
+    padding: 0 30px;
+    border: none;
+    background-color:  rgb(30,41,59);
+    color: white;
+    border-radius: 8px;
+}
+footer{
+    width: 1200px;
+    margin: auto;
+}
+footer .row{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .row .col a{
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    color: grey;
+    font-size: 17px;
+}
